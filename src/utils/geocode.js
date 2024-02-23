@@ -14,6 +14,7 @@ const locationkey=(address,callback)=>{
 
         else{
             callback(undefined,{
+//the response is an array coz it returns array of citites of length specified by the offset in the request
                 key: resp.body[0].Key,
                 city:resp.body[0].EnglishName,
                 country: resp.body[0].Country.EnglishName,
