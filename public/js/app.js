@@ -38,7 +38,8 @@ weatherform.addEventListener('submit',(e)=>{
     msg2.style.visibility='visible'
     msg2.textContent=" "
     
-    fetch(`http://localhost:3000/weather?address=${loc}`).then((response)=>{
+    // fetch(`http://localhost:3000/weather?address=${loc}`).then((response)=>{
+    fetch(`https://fine-puce-springbok-sock.cyclic.ap?address=${loc}`).then((response)=>{
     response.json().then((data)=>{
         if(data.error){
             // console.log(data.error)
