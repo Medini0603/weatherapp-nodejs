@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="/img/weather.png">
+    {{!-- <script src="/js/app.js"></script> --}}
+    {{!-- throws error coz its loaded even before the form so put it in body  --}}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{!-- //syntax to add partials of name header.hbs --}}
+        {{>header}}
+        <p>Use this site to get your weather</p>
+
+        <form action="" id="myform">
+            <input type="text" placeholder="Location" id="inputloc">
+            <br>
+            <button>Search</button>
+        </form>
+        <p id="msg1"></p>
+        <p id="msg2"></p>
+    </div>
+
+    {{!-- TO INJECT VALUES IN HANDLEBARS SIGHT --}}
+    {{!-- <p>Created by {{name}}</p> --}}
+
+    {{!-- //syntax to add partials of name footer.hbs --}}
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

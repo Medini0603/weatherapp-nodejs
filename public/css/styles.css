@@ -1,0 +1,68 @@
+body{
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 654px;
+    margin:0 auto;
+    padding: 10px 16px;
+
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.main-content{
+    flex-grow: 1;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 45px;
+}
+input{
+    padding: 10px 32px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+button{
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 13px;
+    margin-top: 20px;
+}
+
+#msg2{
+
+    border: 1px solid black;
+    padding: 22px 22px;
+    background-color: #eee0e6;
+    border-radius: 12px  
+}
+
+footer{
+    background-color: #f8f0f0;
+    color: #1a1818;
+    margin: 16px;
+    padding: 16px;
+    border-top: 1px solid black;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header a{
+    font-size: large;
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: #eddbdb;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 20px
+}
+
+.potrait{
+    width: 250px;
+}
